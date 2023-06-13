@@ -10280,6 +10280,13 @@ a.text-dark:hover, a.text-dark:focus {
 	width: 100vw;
 }
 
+.photo-box{
+	padding: 10px 0px 200px 0px;
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+}
+
 h1{
 	color: #fff;
 	font-family: "Trebuchet MS";
@@ -10304,7 +10311,7 @@ h3{
 	background-size: cover;
 	text-align: center;
 	margin: 0px;
-	padding: 20px 100px;	
+	padding: 20px 100px 20px 20px;	
 }
 
 .blabla{
@@ -10326,7 +10333,21 @@ h3{
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
-	
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:60%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+	padding: 32px;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .refs{
@@ -10336,7 +10357,7 @@ h3{
 	background-size: cover;
 	width: 100vw;
 	text-align: left;
-	padding: 32px 50px 32px 100px;
+	padding: 32px 50px 32px 20px;
 }
 
 .names{
@@ -10350,7 +10371,7 @@ h3{
 }
 
 .portrait{
-	padding: 20px 20px 20px 40px;
+	padding: 20px;
 }
 
 .image{
