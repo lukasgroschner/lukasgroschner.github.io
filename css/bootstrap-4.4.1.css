@@ -10281,7 +10281,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .photo-box{
-	padding: 10px 0px 200px 0px;
+	padding: 10px 0px 200px 50px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
@@ -10311,7 +10311,8 @@ h3{
 	background-size: cover;
 	text-align: center;
 	margin: 0px;
-	padding: 20px 20px;	
+	/* padding: 20px 20px; */
+	padding: 20px calc(20px + 15vw);
 }
 
 .blabla{
@@ -10336,18 +10337,18 @@ h3{
 }
 
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:60%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
 	padding: 32px;
-    height:100%;
-    width:100%;
-    position:absolute;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .refs{
@@ -10357,7 +10358,8 @@ h3{
 	background-size: cover;
 	width: 100vw;
 	text-align: left;
-	padding: 32px 50px 32px 20px;
+	padding: 32px calc(20px + 15vw);
+	/*padding: 32px 50px 32px 20px;*/
 }
 
 .names{
@@ -10366,12 +10368,19 @@ h3{
 	font-size: 20px;
 	text-align: left;
 	position: absolute;
-	top: 72%;
+	top: 70%;
 	transform: translate(10%, 50%);	
 }
 
 .portrait{
 	padding: 20px;
+
+}
+
+.funders{
+	align-content: center;
+	justify-content: center;
+	padding: 32px calc(20px + 1vw);
 }
 
 .image{
