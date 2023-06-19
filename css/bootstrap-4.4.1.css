@@ -10340,12 +10340,12 @@ h3{
     overflow: hidden;
     padding-bottom: 60%;
     position: relative;
-    height: 0;
+    height: 0;	
 }
 .map-responsive iframe{
     left: 0;
     top: 0;
-	padding: 32px;
+	padding: 20px;
     height: 100%;
     width: 100%;
     position: absolute;
