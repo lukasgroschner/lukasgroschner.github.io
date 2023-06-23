@@ -5,39 +5,40 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+
 <url>
   <loc>https://www.groschner-lab.org/</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/science</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/people</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/publications</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/funding</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/join</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.groschner-lab.org/contact</loc>
-  <lastmod>2023-06-14T14:45:00+00:00</lastmod>
+  <lastmod>2023-06-19T10:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
