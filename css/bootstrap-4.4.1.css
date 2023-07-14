@@ -10241,7 +10241,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .publications-hero{
-	background-image: url("../images/books.jpg");
+	background-image: url("../images/setup.jpg");
 	padding: 10px 0px 200px 0px;
 	background-size: cover;
 	background-position: center center;
@@ -10249,7 +10249,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .people-hero{
-	background-image: url("../images/lg.jpg");
+	background-image: url("../images/grow.jpg");
 	padding: 10px 0px 200px 0px;
 	background-size: cover;
 	background-position: center center;
