@@ -10249,7 +10249,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .people-hero{
-	background-image: url("../images/grow.jpg");
+	background-image: url("../images/AND.jpg");
 	padding: 10px 0px 200px 0px;
 	background-size: cover;
 	background-position: center center;
@@ -10281,8 +10281,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .photo-box{
-	padding: 20px 0px 200px 20px;
-	background-size: cover;
+	padding: 20px 0px 20px 20px;
+	background-size: 70vw;
 	background-position: center center;
 	width: 100vw;
 }
