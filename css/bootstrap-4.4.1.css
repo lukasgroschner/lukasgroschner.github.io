@@ -10329,18 +10329,23 @@ h3{
 	width: 100vw;
 }
 
-.map{
-	padding: 32px 32px 32px 20px;
-	background-size: cover;
-	background-position: center center;
-	width: 100vw;
+.map{	
+		background-size: cover;
+		display: flex;
+		grid-auto-flow: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		min-height: 100vh;
+		width: 100vw;
+		padding: 32px calc(15vw);
+	
 }
 
 .map-responsive{
     overflow: hidden;
     padding-bottom: 60%;
     position: relative;
-    height: 0;	
+    height: 0;
 }
 .map-responsive iframe{
     left: 0;
