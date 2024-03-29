@@ -53,7 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Trebuchet MS";
   background-color: #fff;
   max-width: 1200px;
@@ -4318,6 +4318,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -10224,12 +10225,16 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+head{
+	margin-top: 65px;	
+}
+
 .hero{
 	background-image: url("../images/hs_br_wide.jpg");
 	padding: 10px 0px 200px 0px;
 	background-size: cover;
 	background-position: center center;
-	width: 100vw;
+	width: 100vw;	
 }
 
 .research-hero{
@@ -10398,7 +10403,7 @@ h3{
 		grid-auto-flow: row;
 		flex-wrap: wrap;
 		justify-content: center;
-		min-height: 100vh;
+		min-height: 50vh;
 		width: 100vw;
 		text-align: left;
 		padding: 32px calc(15vw);
