@@ -9949,6 +9949,12 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.text-center_bottom {
+  text-align: center !important;
+  bottom: 0;
+  padding-top: 500;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
@@ -10231,7 +10237,7 @@ head{
 
 .hero{
 	background-image: url("../images/hs_br_wide.jpg");
-	padding: 10px 0px 200px 0px;
+	padding: 70px 0px 140px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;	
@@ -10239,7 +10245,7 @@ head{
 
 .research-hero{
 	background-image: url("../images/Mi9.jpg");
-	padding: 10px 0px 200px 0px;
+	padding: 70px 0px 140px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
@@ -10254,8 +10260,8 @@ head{
 }
 
 .people-hero{
-	background-image: url("../images/AND.jpg");
-	padding: 10px 0px 200px 0px;
+	background-image: url("../images/grolab_photo_bw.jpg");
+	padding: 80px 0px 130px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
@@ -10263,7 +10269,7 @@ head{
 
 .contact-hero{
 	background-image: url("../images/MUG.jpg");
-	padding: 10px 0px 200px 0px;
+	padding: 40px 0px 170px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
@@ -10271,15 +10277,15 @@ head{
 
 .funding-hero{
 	background-image: url("../images/MBON.jpg");
-	padding: 10px 0px 200px 0px;
+	padding: 80px 0px 130px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
 }
 
 .join-hero{
-	background-image: url("../images/flyroom.jpg");
-	padding: 10px 0px 200px 0px;
+	background-image: url("../images/and.jpg");
+	padding: 55px 0px 155px 0px;
 	background-size: cover;
 	background-position: center center;
 	width: 100vw;
