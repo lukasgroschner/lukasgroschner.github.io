@@ -10292,24 +10292,40 @@ head{
 
 
 
-#contact-hero{
+#contact-hero_safari{
+	background-image: url("../images/silent_flight.mp4");
+	background-color: transparent;
+    position: absolute;
+    z-index: 1;
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+	height: 370px;
+	display: flex;
+	flex-direction: column;	
+}
+
+#contact-hero_chrome{
+	background-size: cover;
+	background-position: center center;
 	width: 100vw;
 	height: 370px;
 	display: flex;
 	flex-direction: column;
+	
 }
 
-#contact-hero video{	
+#contact-hero_chrome video{	
 	width: 100vw;
 	height: 370px;
 	position: absolute;
 	object-fit: cover;
 	flex-basis: 50%;
   	overflow: hidden;
-	z-index: 5;
+	z-index: -1;
 }
 
-#contact-hero .cap{
+#contact-hero_chrome .cap{
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -10321,7 +10337,7 @@ head{
 	
 }
 
-#contact-hero .texture{
+#contact-hero_chrome .texture{
 	width: 100vw;
 	height: 370px;
 	content: "";
@@ -10330,7 +10346,7 @@ head{
 	background: url("../images/az-subtle.png");	
 }
 
-#contact-hero::after{
+#contact-hero_chrome::after{
 	width: 100vw;
 	height: 370px;
 	content: "";
