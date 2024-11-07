@@ -10415,5 +10415,16 @@ h3{
 		padding: 32px calc(15vw);
 		}
 
+.alumni{
+		background-size: cover;
+		display: flex;
+		grid-auto-flow: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		min-height: 10vh;
+		width: 100vw;
+		text-align: left;
+		padding: 8 calc(15vw);
+		}
 
 /*# sourceMappingURL=bootstrap.css.map */
