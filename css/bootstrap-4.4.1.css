@@ -10231,6 +10231,77 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+
+
+
+#ecmtb-hero_safari{
+	background-image: url("../images/video_graz_bernat.mp4");
+	background-color: transparent;
+    position: absolute;
+    z-index: 1;
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+	height: 370px;
+	display: flex;
+	flex-direction: column;	
+}
+
+#ecmtb-hero_chrome{
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#ecmtb-hero_chrome video{	
+	width: 100vw;
+	height: 370px;
+	position: absolute;
+	object-fit: cover;
+	flex-basis: 50%;
+  	overflow: hidden;
+	z-index: -1;
+}
+
+#ecmtb-hero_chrome .cap{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	z-index: 20;
+	text-align: center;
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-size: 35px;
+	
+}
+
+#ecmtb-hero_chrome .texture{
+	width: 100vw;
+	height: 370px;
+	content: "";
+	position: absolute;
+	z-index: 15;
+	background: url("../images/az-subtle.png");	
+}
+
+#ecmtb-hero_chrome::after{
+	width: 100vw;
+	height: 370px;
+	content: "";
+	position: absolute;
+	z-index: 10;
+	top:65;
+	left: 0;
+	background: rgba(0,0,0,0.3)
+}
+
+
+
+
 head{
 	margin-top: 65px;	
 }
